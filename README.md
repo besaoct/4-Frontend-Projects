@@ -12,7 +12,7 @@
     
    
 <div style="margin: 0;padding: 5rem;">
-        <h3>1.Student Profile : <a href="https://ctis014sp.vercel.app"> Live Demo</a></h3>
+        <h3>1.Student Profile : <a href="https://blackipie.github.io/webtechAssignment/studentProfile"> Live Demo</a></h3>
         <h3>2.0.Scientific Calculator : <a href="https://blackipie.github.io/webtechAssignment/calculator/sci"> Live
                 Demo</a></h3>
         <h3>2.1.Calculator : <a href="https://blackipie.github.io/webtechAssignment/calculator/"> Live Demo</a></h3>
