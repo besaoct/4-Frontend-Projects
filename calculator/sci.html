@@ -124,7 +124,7 @@
 
     <div class="container">
         <div class="display">
-            <input id="screen" type="text" placeholder="0" value="0" style="
+            <input id="screen" type="text" onchange="myFunction()" placeholder="0" value="0" style="
     max-width: 420px;
 ">
         </div>
@@ -255,7 +255,7 @@
     
    //
     
-input onchange = 'myFunction(this)'
+// input onchange = 'myFunction(this)'
 
 function myFunction(e){ myelement = document . getElementById('eval'); if (e . value == null || e . value == "") { myelement . classList . add('disabled');
 
