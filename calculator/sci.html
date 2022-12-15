@@ -185,9 +185,7 @@
     var screen = document.querySelector('#screen');
     var btn = document.querySelectorAll('.btn');
     screen.value=0;
-    if (screen.value=='') {
-                screen.value="0";
-       }
+  
 
     for (item of btn) {
         item.addEventListener('click', (e) => {
@@ -195,6 +193,10 @@
 
             if (btntext == '×') {
                 btntext = '*';
+            }
+            
+            if (btntext == '=' && screen.value==0; ) {
+                screen.value=0;
             }
 
             if (btntext == '÷') {
