@@ -196,6 +196,9 @@
             if (btntext == '÷') {
                 btntext = '/';
             }
+              if (btntext == '=' && screen.value=='') {
+                screen.value=0;
+            }
             screen.value += btntext;
         });
     }
