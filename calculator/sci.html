@@ -124,7 +124,7 @@
 
     <div class="container">
         <div class="display">
-            <input id="screen" type="text" placeholder="0" style="
+            <input id="screen" type="text" placeholder="0" value="0" style="
     max-width: 420px;
 ">
         </div>
@@ -200,7 +200,7 @@
             }
           
             screen.value += btntext;
-            if(screen.value=="undefined"){ screen.value=0;}
+           
         });
     }
 
@@ -253,7 +253,19 @@
         screen.value = screen.value.substr(0, screen.value.length - 1);
     }
     
-    if(screen.value=="undefined"){ screen.value=0;}
+   //
+    
+input onchange = 'myFunction(this)'
+
+function myFunction(e){ myelement = document . getElementById('eval'); if (e . value == null || e . value == "") { myelement . classList . add('disabled');
+
+} else {
+
+myelement . classList . remove('disabled');
+
+}
+
+}
 </script>
 
 </html>
