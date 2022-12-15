@@ -200,6 +200,7 @@
             }
           
             screen.value += btntext;
+            if(screen.value=="undefined"){ screen.value=0;}
         });
     }
 
@@ -251,6 +252,8 @@
     function backspc() {
         screen.value = screen.value.substr(0, screen.value.length - 1);
     }
+    
+    if(screen.value=="undefined"){ screen.value=0;}
 </script>
 
 </html>
