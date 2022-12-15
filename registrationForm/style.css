@@ -33,7 +33,7 @@ body {
 }
 
 .input-control input {
-    border: 2px solid #f0f0f0;
+    border: 2px solid #eee;
 	border-radius: 4px;
 	display: block;
 	font-size: 12px;
