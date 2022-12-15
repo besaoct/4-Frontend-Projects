@@ -183,7 +183,9 @@
 <script>
     var screen = document.querySelector('#screen');
     var btn = document.querySelectorAll('.btn');
-
+    if (screen.value==='undefined') {
+                screen.value="0";
+       }
 
     for (item of btn) {
         item.addEventListener('click', (e) => {
@@ -196,9 +198,7 @@
             if (btntext == '÷') {
                 btntext = '/';
             }
-              if (btntext == '=' && screen.value=='') {
-                screen.value=0;
-            }
+          
             screen.value += btntext;
         });
     }
